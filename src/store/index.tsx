@@ -6,7 +6,7 @@ import { FLUSH, REHYDRATE, PAUSE, PERSIST, PURGE, REGISTER } from 'redux-persist
 import blogsSlice from './slices/blogsSlice';
 
 const rootReducer = combineReducers({
-    blogsState: blogsSlice, // Add your slices here
+    blogsState: blogsSlice,
 });
 
 const persistConfig = {
